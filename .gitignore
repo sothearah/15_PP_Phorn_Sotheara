@@ -5,3 +5,5 @@ __pycache__/
 READMEha.md
 test_logha.md
 app_one/
+config.bat
+node_modules

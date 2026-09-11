@@ -8,6 +8,9 @@ Optional FastAPI server:
     poetry run uvicorn app.main:app --reload
 """
 
+import utils.http_session
+import utils.transport
+import utils.session
 import logging
 
 from fastapi import FastAPI, HTTPException
